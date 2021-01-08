@@ -1,27 +1,32 @@
 <!doctype html>
 <html lang="en-us">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-</head>
-<body>
-    <header>
-        Ben Ng
-    </header>
-    <main>
-        <h1>WDD 230: Assignment Portal</h1>
-        <hr>
-        <ul>
-            <li>Lesson 02: <a href="#">Assignment Link</a></li>
-            <li>Lesson 03: <a href="#">Assignment Link</a></li>
-            <li>Lesson 04: <a href="#">Link</a>|<a href="#">Link</a></li>
-        </ul>
-    </main>
-    <footer>
-        <p>&copy; 2020|Ben Ng|Japan|BYUI Online Learning</p>
-        <p>Last Updated: </p>
-    </footer>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                Ben Ng
+            </header>
+            <main>
+                <h1>WDD 230: Assignment Portal</h1>
+                <hr>
+                <ul>
+                    <li>Lesson 02: <a href="#">Assignment Link</a></li>
+                    <li>Lesson 03: <a href="#">Assignment Link</a></li>
+                    <li>Lesson 04: <a href="#">Link</a>|<a href="#">Link</a></li>
+                </ul>
+            </main>
+            <footer>
+                <p>&copy; 2020|Ben Ng|Japan|BYUI Online Learning</p>
+                <p>Last Updated: <div id="lastModified"></div></p>
+            </footer>
+        </div>  
+    </body>
+    <script>
+        document.getElementById("lastModified").innerHTML = document.lastModified;
+    </script> 
 </html>
