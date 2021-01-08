@@ -9,10 +9,11 @@
     <body>
         <div class="content">
             <header>
-                Ben Ng
+                <h1 id="name">Ben Ng</h1>
+                <img id="pic1" src="https://picsum.photos/200/300" alt="pic">
             </header>
             <main>
-                <h1>WDD 230: Assignment Portal</h1>
+                <h2>WDD 230: Assignment Portal</h2>
                 <hr>
                 <ul>
                     <li>Lesson 02: <a href="#">Assignment Link</a></li>
@@ -22,11 +23,11 @@
             </main>
             <footer>
                 <p>&copy; 2020|Ben Ng|Japan|BYUI Online Learning</p>
-                <p>Last Updated: <div id="lastModified"></div></p>
+                <span id="lastUpdate">Last Updated: </span><span id="lastModified"></span>
             </footer>
-        </div>  
+        </div>
+        <script>
+            document.getElementById("lastModified").innerHTML = document.lastModified;
+        </script> 
     </body>
-    <script>
-        document.getElementById("lastModified").innerHTML = document.lastModified;
-    </script> 
 </html>

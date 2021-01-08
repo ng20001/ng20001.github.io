@@ -1,4 +1,41 @@
+header {
+    text-align: center;
+    border: 2px solid #0084ff;
+    border-radius: 1.2em;
+}
+
+#name {
+    display: inline-block;
+}
+
 .content {
     max-width: 750px;
     margin: 0 auto;
+}
+
+main {
+    padding: 10px;
+}
+
+#lastUpdate {
+    display: inline;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #0084ff;
+    border-radius: 1.2em;
+    vertical-align: middle;
+    line-height: 0.6;
+    padding-bottom: 14px;
+}
+
+#pic1 {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 120px;
+    border-radius: 1.1em;
+    box-shadow: 5px 5px 20px grey;
 }
