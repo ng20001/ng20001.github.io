@@ -35,10 +35,15 @@ footer {
 }
 
 #pic1 {
-    float: right;
-    margin-right: 30px;
-    margin-top: 10px;
     width: 120px;
     border-radius: 1.1em;
     box-shadow: 5px 5px 20px grey;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
 }
