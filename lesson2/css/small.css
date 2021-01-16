@@ -1,0 +1,90 @@
+* { -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; }
+
+header {
+    text-align: center;
+    border: 2px solid #0084ff;
+    border-radius: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 20px;
+}
+
+#title {
+    display: inline-block;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+main {
+    display: grid;
+    padding: 20px 40px;
+    grid-gap: 40px;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+#lastUpdate {
+    display: inline;
+}
+
+
+main figure {
+    width: auto;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1.1em;
+    box-shadow: 5px 5px 20px grey;
+    background-color: rgb(255, 243, 177);
+}
+
+.figtitle {
+    background-color:skyblue;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 1.1em;
+    color: white;
+    font-size: 25px;
+}
+
+main figure p {
+    padding: 30px;
+}
+
+main figure img {
+    width: 100%;
+    margin: 1rem auto;
+    border-radius: 1.1em;
+    /*border: 2px solid red;*/
+    box-shadow: 5px 5px 20px grey;
+}
+
+main figure figcaption {
+    padding: 1rem 0;
+    text-align: left;
+    line-height: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #0084ff;
+    border-radius: 1.2em;
+    vertical-align: middle;
+    line-height: 0.6;
+    padding-bottom: 14px;
+}
