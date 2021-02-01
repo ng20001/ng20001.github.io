@@ -1,0 +1,102 @@
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+header {
+    background-color: #fffad2;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.headings div {
+    margin: 0;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #FFD5D5;
+}
+
+.navigation {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    text-align: center;
+}
+
+.navigation li a {
+    display: block;
+    color: black;
+    padding: 0.7rem 0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.navigation li a:hover {
+    background-color: #ff9292;
+    color: #333;
+}
+
+.navigation li.active a {
+    background-color: #ff4949;
+    color: #ffffff;
+}
+
+.responsive li {
+    display: block;
+}
+
+footer {
+    background-color: #c5fdff;
+    margin-top: 20px;
+    padding: 1.5rem 2%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px 10px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #eee;
+    font-style: italic;
+}

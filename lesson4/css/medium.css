@@ -1,0 +1,30 @@
+@media only screen and (min-width: 32.5rem) {
+    header {
+        padding: 0;
+    }
+    
+    header img {
+        width: 128px;
+    }
+
+    .headings h1 {
+        font-size: 35px;
+    }
+    
+    .headings div {
+        font-size: 25px;
+    }
+
+    .contentbox {
+        margin: 10px 10%;
+        border: 1px solid black;
+        background-color: #fffad2;
+    }
+
+    footer {
+        padding: 1.5rem 2%;
+        text-align: center;
+        font-size: 1rem;
+        margin: 20px 10%
+    }
+} 
