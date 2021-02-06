@@ -1,0 +1,50 @@
+@media only screen and (min-width: 32.5rem) {
+    header {
+        padding: 0;
+    }
+    
+    header img {
+        width: 128px;
+    }
+
+    .headings h1 {
+        font-size: 35px;
+    }
+    
+    .headings div {
+        font-size: 25px;
+    }
+
+    .bannerdiv {
+        max-width: 85%;
+    }
+
+    .weathersummary h3,p {
+        margin: 15px auto;
+    }
+
+    .five-day {
+        display: block;
+    }
+
+    .article {
+        max-width: 85%;
+    }
+
+    .article img {
+        float: right;
+        width: 200px;
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 0.5rem;
+    }
+
+
+    footer {
+        padding: 1.5rem 2%;
+        text-align: center;
+        font-size: 1rem;
+    }
+} 
