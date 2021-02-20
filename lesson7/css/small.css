@@ -1,0 +1,227 @@
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+#special-note {
+    background-color: #c5fdff;
+    padding: 20px;
+    margin: auto;
+}
+
+.showme {
+    display: block;
+}
+
+.hideme {
+    display: none;
+}
+
+#special-note p {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.site-title {
+    background-color: #fffad2;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-title img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.headings div {
+    margin: 0;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #FFD5D5;
+}
+
+.navigation {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    text-align: center;
+}
+
+.navigation li a {
+    display: block;
+    color: black;
+    padding: 0.7rem 0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.navigation li a:hover {
+    background-color: #ff9292;
+    color: #333;
+}
+
+.navigation li.active a {
+    background-color: #ff4949;
+    color: black;
+}
+
+.responsive li {
+    display: block;
+}
+
+.bannerdiv {
+    margin: 10px auto;
+    position: relative;
+    max-width: 100%;
+}
+
+.hero {
+    margin: 0 auto;
+}
+
+#banner {
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background: radial-gradient(white, grey);
+    border: 1px solid black;
+    box-shadow: 0 0 30px #777;
+    padding: 0 10px;
+}
+
+.weathersummary h3,p {
+    margin: 10px auto;
+}
+
+.five-day {
+    display: none;
+}
+
+.five-day table {
+    margin: 10px auto;
+    width: 370px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.five-day th {
+    background-color: #fffad2;
+}
+
+.five-day th, td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.five-day tr:nth-child(2) td {
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
+.five-day tr:nth-child(3) td {
+    border-top: none;
+}
+
+.five-day img {
+    width: 45px;
+}
+
+.article {
+    margin: 40px auto;
+    max-width: 90%;
+    border: 1px solid black;
+    padding: 30px;
+    line-height: 1.7rem;
+    background-color: #fffad2;
+}
+
+.article img {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.contact {
+    width: 100%;
+    background-color: #fffad2;
+}
+
+.contact-info {
+    max-width: 45%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.gallery {
+    margin: 15px auto;
+}
+
+.gallery figure {
+    box-shadow: 4px 4px 10px rgb(131, 131, 131);
+    border-radius: 6px;
+    background-color: lightyellow;
+}
+
+.gallery figcaption {
+    padding: 15px;
+    margin-top: -4px;
+}
+
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+  
+.gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+footer {
+    background-color: #c5fdff;
+    padding: 1.5rem 2%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.subheadings {
+    text-align: center;
+}
