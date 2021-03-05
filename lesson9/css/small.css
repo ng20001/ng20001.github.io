@@ -1,0 +1,49 @@
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+.cards {
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0px -5px 10px darkgray;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px solid rgb(112, 101, 138);
+    background-color: rgb(175, 166, 195);
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+p {
+    margin: 10px auto;
+}
+
+h1, h2 {
+    color: rgb(90, 64, 146);
+}
+
+img {
+    width: 40%;
+    margin-bottom: 10px;
+}
