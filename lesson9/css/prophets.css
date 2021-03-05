@@ -30,7 +30,7 @@ section:last-child {
     margin-bottom: 0;
 }
 
-h1 {
+h1, footer {
     text-align: center;
     margin: 10px auto;
 }
