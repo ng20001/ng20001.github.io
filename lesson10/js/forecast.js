@@ -15,7 +15,7 @@ weekday[6] = "Sat";
 
 //console.log(weekday[todayDayNumber]);
 
-const apiURL2 = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a3a248601a9f69327684ea06f341d4bb&units=metric';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a3a248601a9f69327684ea06f341d4bb&units=metric';
 
 fetch(apiURL2)
     .then((response) => response.json())
