@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is the Preston page.">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <title>Sunshine Garden: Preston</title>
+    </head>
+    
+    <body>
+        <header>
+            <div id="special-note">
+                <p>Saturday = Preston Pancakes in the Park!</p>
+                <p>9.00 a.m. Saturday at the city park.</p>
+            </div>
+            <div class="site-title">
+                <picture>
+                    <img src="images/sunshine.png" alt="sunshine icon">
+                </picture>
+                <section class="headings">
+                    <h1>Sunshine Garden</h1>
+                    <div>The weather site you need!</div>
+                </section>
+            </div>
+            
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2 class="subheadings">Preston Idaho</h2>
+            <div class="bannerdiv">
+                <figure class="hero">
+                    <img id="banner" 
+                         src="images/hero800.png" 
+                         sizes="100vw"
+                         srcset="images/hero200.png 320w,
+                                 images/hero500.png 500w,
+                                 images/hero800.png 800w" 
+                         alt="preston banner">
+                </figure>
+                <section class="weathersummary">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: Rainy</p>
+                    <p>High: <span id="highTemp"></span> C&deg;</p>
+                    <p>Wind Chill: <span id="windChill"></span></p>
+                    <p>Humidity: <span id="humidity"></span> %</p>
+                    <p>Wind Speed: <span id="windSpeed">12</span> mph</p>
+                </section>
+            </div>
+
+            <h3 class="subheadings">5-Day Forecast: </h3>
+            <div id="five-day"></div>
+            <!--Backup: old class "five-day"
+            <div class="five-day">
+                
+                <table>
+                    <tr>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cloudy.png" alt="cloudy"></td>
+                        <td><img src="images/cloudy.png" alt="cloudy"></td>
+                        <td><img src="images/cloudy.png" alt="cloudy"></td>
+                        <td><img src="images/cloudy.png" alt="cloudy"></td>
+                        <td><img src="images/cloudy.png" alt="cloudy"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            -->
+            
+            <div class="article">
+                <h3>Lorem Ipsum</h3>
+                <img src="https://picsum.photos/180/180" alt="article img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet tristique augue, ac porta ipsum. Curabitur sed felis efficitur dui ullamcorper vehicula. Suspendisse ac dolor nec metus mattis rutrum. Nulla nec urna tortor. Nulla facilisi. Etiam porta ex purus, in pharetra metus pretium sit amet. Quisque ut ullamcorper justo. Integer vestibulum eros sit amet mi cursus bibendum. Etiam augue erat, placerat a diam nec, tincidunt viverra mauris. Fusce consectetur porta leo sed interdum. Morbi sit amet purus sed magna posuere finibus sit amet malesuada neque. Donec scelerisque feugiat nisi, at fermentum tortor pharetra non. Quisque tincidunt mauris vitae consectetur placerat. Nam viverra massa eget pretium placerat. Duis lobortis eros nulla, ut interdum purus iaculis non. Nunc tortor nisi, tristique non libero eu, varius tincidunt ipsum. Duis pretium sollicitudin ante, sed aliquam purus fringilla sed. Praesent in ultrices arcu, a viverra felis. Aliquam sed dolor vel turpis mattis rhoncus ut finibus dolor. Fusce interdum diam eget nisl varius, vel posuere sapien pharetra. Vivamus lobortis, orci at varius hendrerit, risus felis volutpat lectus, condimentum feugiat lectus nisi sed ante. Proin varius nisi vitae tincidunt feugiat. Donec vel felis maximus, condimentum arcu at, malesuada nisl. Vivamus molestie mauris vitae interdum placerat. Morbi varius.</p>
+            </div>
+            <div class="contact">
+                <section class="contact-info">
+                    <h4>Sunshine Garden</h4>
+                    <p>30 N 1st E</p>
+                    <p>Preston, ID 83263</p>
+                    <br>
+                    <p>&#9742; 999-999-9999</p>
+                    <p>&#9993; sunshinegarden@sun.com</p>
+                    <br><br>
+                    <img src="images/fb.png" alt="fb">
+                    <img src="images/youtube.png" alt="youtube">
+                    <img src="images/ig.png" alt="ig">
+                </section>
+                
+            </div>
+        </main>
+
+        <footer>
+            &copy; Sunshine Garden | Ben | <span id="currentDate"></span>
+        </footer>
+        <script src="js/time.js"></script>
+        <script src="js/nav.js"></script>
+        <script src="js/fridaynote.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/webFontLoad.js"></script>
+        <script src="js/weatherapi.js"></script>
+        <script src="js/forecast.js"></script>
+    </body>
+</html>
