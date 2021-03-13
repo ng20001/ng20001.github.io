@@ -1,4 +1,4 @@
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a3a248601a9f69327684ea06f341d4bb&units=metric";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a3a248601a9f69327684ea06f341d4bb&units=metric";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
