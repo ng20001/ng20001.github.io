@@ -21,23 +21,26 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     let card = document.createElement('section');
-    let word_wrap = document.createElement('div');
+    //let word_wrap = document.createElement('div');
     let linebreak = document.createElement('br');
     let h3 = document.createElement('h3');
-    let p = document.createElement('p');
+    let paragraph = document.createElement('section');
+
+    var eventArray = towns[pageNum].events;
 
     h3.textContent = 'Upcoming Events';
 
-    var eventArray = String(towns[pageNum].events);
-    eventArray = eventArray.split(',');
-    word_wrap.appendChild(h3);
-
     for (let i=0; i < eventArray.length; i++){
+      let p = document.createElement('p');
       p.append(eventArray[i]);
-      p.appendChild(linebreak);
+      paragraph.appendChild(p);
     }
-    word_wrap.appendChild(p);
-    card.appendChild(word_wrap);
+
+    console.log(towns[pageNum].events.join(linebreak));
+
+    card.appendChild(h3);
+    card.appendChild(linebreak);
+    card.appendChild(paragraph);
 
     document.querySelector('#upcoming-event').appendChild(card);
   });

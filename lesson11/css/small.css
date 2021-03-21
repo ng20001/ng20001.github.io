@@ -163,6 +163,23 @@ nav {
     width: 45px;
 }
 
+#upcoming-event {
+    margin: 40px auto;
+    width: 70%;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #c5fdff;
+}
+
+#upcoming-event h3 {
+    margin: 0 auto;
+}
+
+.quote {
+    font-style: italic;
+    font-size: small;
+}
+
 .article {
     margin: 40px auto;
     max-width: 90%;
@@ -331,15 +348,7 @@ form label.top textarea {
     width: 100%;
     padding-bottom: 10px;
 }
-/*
-.towns-cards section:first-child {
-    margin-top: 0;
-}
 
-.towns-cards section:last-child {
-    margin-bottom: 0;
-}
-*/
 .towns-cards h2 {
     font-size: 30px;
     margin: 0;
