@@ -1,0 +1,46 @@
+{
+    "business": [
+        {
+            "name": "CK Hutchison Holdings",
+            "photo": "ckh.png",
+            "contact": "info@ckh.com.hk",
+            "website": "https://www.ckh.com.hk/en/global/home.php"
+        },
+        {
+            "name": "Swire Pacific Limited",
+            "photo": "swire.png",
+            "contact": "ir@swirepacific.com",
+            "website": "https://www.swirepacific.com/en/global/home.php"
+        },
+        {
+            "name": "CLP Group",
+            "photo": "clp.png",
+            "contact": "clp@clp.com",
+            "website": "https://www.clp.com.hk/en"
+        },
+        {
+            "name": "Sun Hung Kai Propertiess",
+            "photo": "shk.png",
+            "contact": "commercial-sales@shkp.com",
+            "website": "https://www.shkp.com/zh-HK"
+        },
+        {
+            "name": "Jardine Matheson",
+            "photo": "jm.png",
+            "contact": "jml@jardines.com",
+            "website": "https://www.jardines.com/en/global/home.html"
+        },
+        {
+            "name": "AIA Group",
+            "photo": "aia.png",
+            "contact": "groupcorpcomms@aia.com",
+            "website": "https://www.aia.com/zh-hk/index.html"
+        },
+        {
+            "name": "Hutchison Whampoa",
+            "photo": "hw.png",
+            "contact": "info@hwl.com.hk",
+            "website": "https://www.ckh.com.hk"
+        }
+    ]
+}
