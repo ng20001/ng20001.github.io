@@ -54,6 +54,7 @@ fetch(apiURL2)
                 let iconPath = "https://openweathermap.org/img/w/" + iconcode + ".png";
                 let theIcon = document.createElement("img");
                 theIcon.src = iconPath;
+                theIcon.alt = weatherInfo.list[i].weather[0].description;
                 iconbox.appendChild(theIcon);
                 tr_2.appendChild(iconbox);
 
