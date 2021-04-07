@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is the fictitious Hong Kong Chamber of Commerce page.">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <title>Home - Hong Kong Chamber of Commerce</title>
+    </head>
+    
+    <body>
+        <header>
+            <div id="special-note"><div id="weather-alert">ALERT HERE</div></div>
+
+            <div class="site-title">
+                <div class="site-title-left">
+                    <picture>
+                        <img src="images/hkcc_logo.png" alt="hkcc icon">
+                    </picture>
+                    <section class="headings">
+                        <h1>Hong Kong Chamber of Commerce</h1>
+                    </section>
+                </div>
+                <div class="menu-button">
+                    <a href="#" onclick="toggleMenu()">&#9776;</a>
+                </div>
+                <div class="large-nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="city.html">Hong Kong</a></li>
+                        <li><a href="join.html">Join Us</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>
+
+        <nav>
+            <ul class="dropdown-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="city.html">Hong Kong</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="hero">
+                <img src="images/home_hero.jpg" alt="hk hero img">
+            </div>
+
+            <div class="weather-info">
+                <p>Condition: <span id="condition"></span></p>
+                <p>Current tempature: <span id="currtemp"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+            
+            </div>
+
+            <div class="three-images">
+                    <img src="https://picsum.photos/480/480" alt="home article img">
+                    <img src="https://picsum.photos/480/480" alt="home article img">
+                    <img src="https://picsum.photos/480/480" alt="home article img">
+            </div>
+
+            <h2 class="sub-headings">About us</h2>
+            <div class="article">
+                <img src="https://picsum.photos/480/360" alt="home article img">
+                <p>In the Sunshine Garden, you will find all the weather information you need within the area of Idaho. You will find useful weather information such as areas tempature, windspped, humidity level, windchill, etc.</p>
+                <p>If you are a big fan of photograpy, you will also find some of the most astonishing nature photographs in the Gallery section.</p>
+                <p>You will also learn some of the interesting history of these places that is often forgotten, quoted from some other historical website.</p>
+                <p>Enjoy your stay!</p>
+            </div>
+            
+            <h2 class="sub-headings">Upcoming events</h2>
+            <div class="article">
+                <img src="https://picsum.photos/480/360" alt="home article img">
+                <p>In the Sunshine Garden, you will find all the weather information you need within the area of Idaho. You will find useful weather information such as areas tempature, windspped, humidity level, windchill, etc.</p>
+                <p>If you are a big fan of photograpy, you will also find some of the most astonishing nature photographs in the Gallery section.</p>
+                <p>You will also learn some of the interesting history of these places that is often forgotten, quoted from some other historical website.</p>
+                <p>Enjoy your stay!</p>
+            </div>
+
+            <h2 class="sub-headings">Join Us Today!</h2>
+            <div class="article">
+                <img src="https://picsum.photos/480/360" alt="home article img">
+                <p>In the Sunshine Garden, you will find all the weather information you need within the area of Idaho. You will find useful weather information such as areas tempature, windspped, humidity level, windchill, etc.</p>
+                <p>If you are a big fan of photograpy, you will also find some of the most astonishing nature photographs in the Gallery section.</p>
+                <p>You will also learn some of the interesting history of these places that is often forgotten, quoted from some other historical website.</p>
+                <p>Enjoy your stay!</p>
+            </div>
+
+            <div class="partners">
+                <h3>Local Partners</h3>
+                <img src="https://picsum.photos/480/160" alt="home article img">
+                <img src="https://picsum.photos/480/160" alt="home article img">
+                <img src="https://picsum.photos/480/160" alt="home article img">
+            </div>
+
+
+            <!--
+            <div class="contact">
+                <section class="contact-info">
+                    <img id="contact-map" src="images/map.jpg" alt="map">
+                    <h4>The Hong Kong Chamber of Commerce Office</h4>
+                    <p>1 Hennessy Road, Wan Chai</p>
+                    <p>Hong Kong</p>
+                    <br>
+                    <p>&#9742; 852-2123-4567</p>
+                    <p>&#9993; hkcc@hkcc.hk</p>
+                    <br><br>
+                    <img src="images/fb.png" alt="fb">
+                    <img src="images/youtube.png" alt="youtube">
+                    <img src="images/ig.png" alt="ig">
+                </section>
+            </div>
+            -->
+        </main>
+
+        <footer>
+            &copy; The Hong Kong Chamber of Commerce | Weather data provided by OpenWeatherMap.org | <span id="currentDate"></span>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <!--<script src="js/webFontLoad.js"></script>-->
+        <!--<script src="js/intersectionObserver.js"></script>-->
+        <!--<script src="js/index.js"></script>-->
+
+        <script src="js/nav.js"></script>
+        <script src="js/weatheralert.js"></script>
+        <script src="js/weatherapi.js"></script>
+        <script src="js/time.js"></script>
+    </body>
+</html>

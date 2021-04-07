@@ -1,0 +1,183 @@
+@media only screen and (min-width: 64rem) {
+
+    .menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .site-title-left {
+        width: 50%;
+    }
+
+    /*--------Dropdown Nav---------*/
+
+    .dropdown-nav {
+        display: none;
+    }
+
+    /*--old--*/
+    /*
+    .dropdown-nav {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .dropdown-nav li {
+        display: inline;
+        
+    }
+
+    .dropdown-nav li a {
+        display: inline;
+        color: black;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    */
+
+
+    /*---------Large Nav---------*/
+
+    .large-nav {
+        display: block;
+        width: 50%;
+        margin: 0;
+        padding: 0px;
+        text-align: right;
+        float: right;
+    }
+
+    .large-nav ul {
+        padding: 0;
+    }
+
+    .large-nav li {
+        display: inline;
+    }
+
+    .large-nav li a {
+        display: inline;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    
+    .large-nav li a:hover {
+        font-style: italic;
+    }
+
+    .large-nav li.active a {
+        color: #3C6E71;
+        font-weight: 1000;
+        font-style: normal;
+    }
+
+
+
+    .headings h1 {
+        font-size: 23px;
+    }
+
+
+    .weathersummary {
+        top: 40px;
+        left: 40px;
+    }
+
+    .weathersummary h3,p {
+        margin: 22px auto;
+    }
+
+    #five-day table {
+        width: 550px;
+    }
+
+    #five-day img {
+        width: 60px;
+    }
+
+    .article {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .article img {
+        width: 33%;
+        float: right;
+    }
+
+    .partners {
+        max-width: 90%;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery figure:hover {
+        box-shadow: 8px 8px 25px rgb(32, 32, 32);
+    }
+    
+    /*-----------------------------storm----------------------------*/
+    form {
+        width: 70%;
+    }
+
+    /*-----------------------------home----------------------------*/
+    .towns-cards {
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+
+    .towns-cards section {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        padding: 0;
+        display: block;
+        background-color: lightblue;
+    }
+
+    .towns-cards div {
+        text-align: center;
+        margin: auto 0;
+        padding-top: 20px;
+    }
+
+    .towns-cards img {
+        width: 100%;
+    }
+
+    .towns-cards h2 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .towns-cards h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .towns-cards :nth-child(3) {
+        margin-top: 20px;
+    }
+
+    /*-----------------------------home----------------------------*/
+    #contact-map {
+        float: right;
+    }
+} 
