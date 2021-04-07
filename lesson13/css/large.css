@@ -20,29 +20,6 @@
         display: none;
     }
 
-    /*--old--*/
-    /*
-    .dropdown-nav {
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .dropdown-nav li {
-        display: inline;
-        
-    }
-
-    .dropdown-nav li a {
-        display: inline;
-        color: black;
-        padding: 20px;
-        text-decoration: none;
-        font-size: 0.9rem;
-        text-align: center;
-    }
-    */
-
-
     /*---------Large Nav---------*/
 
     .large-nav {
@@ -71,7 +48,6 @@
         text-align: center;
     }
 
-    
     .large-nav li a:hover {
         font-style: italic;
     }
@@ -82,30 +58,9 @@
         font-style: normal;
     }
 
-
-
     .headings h1 {
         font-size: 23px;
     }
-
-    /*
-    .weathersummary {
-        top: 40px;
-        left: 40px;
-    }
-
-    .weathersummary h3,p {
-        margin: 22px auto;
-    }
-
-    #five-day table {
-        width: 550px;
-    }
-
-    #five-day img {
-        width: 60px;
-    }
-    */
 
     .three-days {
         float: right;
@@ -117,7 +72,7 @@
     }
 
     .article img {
-        width: 35%;
+        width: 28%;
         float: right;
     }
 

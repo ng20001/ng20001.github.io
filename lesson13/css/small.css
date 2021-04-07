@@ -202,34 +202,6 @@ nav {
     border: 1px solid black;
 }
 
-/*old*/
-/*
-.gallery {
-    margin: 15px auto;
-}
-
-.gallery figure {
-    box-shadow: 4px 4px 10px rgb(131, 131, 131);
-    border-radius: 6px;
-    background-color: lightyellow;
-}
-
-.gallery figcaption {
-    padding: 15px;
-    margin-top: -4px;
-}
-
-.gallery img[data-src] {
-    filter: blur(0.2em);
-}
-  
-.gallery img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-    width: 100%;
-    border-radius: 6px 6px 0 0;
-}
-*/
 
 footer {
     background-color: #353535;
@@ -239,7 +211,7 @@ footer {
     color: white;
 }
 
-/*-----------------------------storm----------------------------*/
+/*---------Form---------*/
 .sub-headings {
     width: 90%;
     margin: 30px auto;
@@ -328,7 +300,6 @@ form label.top textarea {
 }
 
 .business-cards {
-    /*background-color: #fffad2;*/
     margin: 0 auto;
     padding: 20px;
     display: block;
