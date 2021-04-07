@@ -15,7 +15,13 @@
     
     <body>
         <header>
-            <div id="special-note"><div id="weather-alert">ALERT HERE</div></div>
+            <!--Weather Alert Not Applicable in HK region-->
+            <!--
+                <div id="special-note">
+                <a href="#" onclick="closeAlert()"><img src="images/cross.png" alt="grid icon"></a>
+                <div id="weather-alert">WARNING! Weather Alert</div>
+            </div>
+            -->
 
             <div class="site-title">
                 <div class="site-title-left">
@@ -58,83 +64,63 @@
             </div>
 
             <div class="weather-info">
-                <p>Condition: <span id="condition"></span></p>
-                <p>Current tempature: <span id="currtemp"></span></p>
-                <p>Humidity: <span id="humidity"></span></p>
+                <div class="three-days">
+                    <p><span id="first-day"></span>: <span id="first-day-temp"></span> C&deg; | <span id="second-day"></span>: <span id="second-day-temp"></span> C&deg; | <span id="third-day"></span>: <span id="third-day-temp"></span> C&deg;</p>
+                </div>
             
-            </div>
+                <p>Current: <span id="condition"></span> | Tempature: <span id="currtemp"></span> C&deg; | Humidity: <span id="humidity"></span> %</p>
 
-            <div class="three-images">
-                    <img src="https://picsum.photos/480/480" alt="home article img">
-                    <img src="https://picsum.photos/480/480" alt="home article img">
-                    <img src="https://picsum.photos/480/480" alt="home article img">
+
+                
             </div>
 
             <h2 class="sub-headings">About us</h2>
             <div class="article">
-                <img src="https://picsum.photos/480/360" alt="home article img">
-                <p>In the Sunshine Garden, you will find all the weather information you need within the area of Idaho. You will find useful weather information such as areas tempature, windspped, humidity level, windchill, etc.</p>
-                <p>If you are a big fan of photograpy, you will also find some of the most astonishing nature photographs in the Gallery section.</p>
-                <p>You will also learn some of the interesting history of these places that is often forgotten, quoted from some other historical website.</p>
-                <p>Enjoy your stay!</p>
+                <img src="images/home1.jpg" alt="home article img">
+                <p>We are a group of hard working and enthusiastic people who are keen on bringing prosperities to Hong Kong. </p>
+                <p>We expand members local and international networks with businesses, governments and institutions around the world.</p>
+                <p>We assist you by broadening your international network by meeting overseas and Mainland business people, as well as participating in our overseas business tours to cities in China and around the world.</p>
+
             </div>
             
-            <h2 class="sub-headings">Upcoming events</h2>
+            <h2 class="sub-headings">Upcoming events/holidays</h2>
             <div class="article">
-                <img src="https://picsum.photos/480/360" alt="home article img">
-                <p>In the Sunshine Garden, you will find all the weather information you need within the area of Idaho. You will find useful weather information such as areas tempature, windspped, humidity level, windchill, etc.</p>
-                <p>If you are a big fan of photograpy, you will also find some of the most astonishing nature photographs in the Gallery section.</p>
-                <p>You will also learn some of the interesting history of these places that is often forgotten, quoted from some other historical website.</p>
-                <p>Enjoy your stay!</p>
+                <img src="images/home2.jpg" alt="home article img">
+                <ul>
+                    <li>May 1: Labour Day</li>
+                    <li>May 19: Buddha's Birthday</li>
+                    <li>June 14: Dragon Boat Festival</li>
+                    <li>July 1: Hong Kong Special Administrative Region Establishment Day</li>
+                    <li>Sep 21: Mid-Autumn Festival</li>
+                    <li>Oct 14: Double Ninth Festival</li>
+                    <li>Dec 25: Christmas Day</li>
+                </ul>
             </div>
 
             <h2 class="sub-headings">Join Us Today!</h2>
             <div class="article">
-                <img src="https://picsum.photos/480/360" alt="home article img">
-                <p>In the Sunshine Garden, you will find all the weather information you need within the area of Idaho. You will find useful weather information such as areas tempature, windspped, humidity level, windchill, etc.</p>
-                <p>If you are a big fan of photograpy, you will also find some of the most astonishing nature photographs in the Gallery section.</p>
-                <p>You will also learn some of the interesting history of these places that is often forgotten, quoted from some other historical website.</p>
-                <p>Enjoy your stay!</p>
+                <img src="images/home3.jpg" alt="home article img">
+                <p>The Hong Kong Chamber of Commerce welcome anyone who has the same value as we do, which is to strive to improve the business environment and work together with people around the world, to promote and safeguard the interests of the business community in Hong Kong.</p>
+                <p>We are looking forward for your participation in the chamber with us, to connect and grow together!</p>
+                <p>Join Us Today!</p>
             </div>
 
             <div class="partners">
                 <h3>Local Partners</h3>
-                <img src="https://picsum.photos/480/160" alt="home article img">
-                <img src="https://picsum.photos/480/160" alt="home article img">
-                <img src="https://picsum.photos/480/160" alt="home article img">
+                <img src="images/clp.png" alt="home article img">
+                <img src="images/shk.png" alt="home article img">
+                <img src="images/ckh.png" alt="home article img">
             </div>
 
-
-            <!--
-            <div class="contact">
-                <section class="contact-info">
-                    <img id="contact-map" src="images/map.jpg" alt="map">
-                    <h4>The Hong Kong Chamber of Commerce Office</h4>
-                    <p>1 Hennessy Road, Wan Chai</p>
-                    <p>Hong Kong</p>
-                    <br>
-                    <p>&#9742; 852-2123-4567</p>
-                    <p>&#9993; hkcc@hkcc.hk</p>
-                    <br><br>
-                    <img src="images/fb.png" alt="fb">
-                    <img src="images/youtube.png" alt="youtube">
-                    <img src="images/ig.png" alt="ig">
-                </section>
-            </div>
-            -->
         </main>
 
         <footer>
-            &copy; The Hong Kong Chamber of Commerce | Weather data provided by OpenWeatherMap.org | <span id="currentDate"></span>
+            &copy; The Hong Kong Chamber of Commerce | Weather data provided by OpenWeatherMap.org | <span id="currentDate"></span> | <a href="disclaimer.html">Disclaimer</a>
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <!--<script src="js/webFontLoad.js"></script>-->
-        <!--<script src="js/intersectionObserver.js"></script>-->
-        <!--<script src="js/index.js"></script>-->
-
+        <script src="js/webFontLoad.js"></script>
         <script src="js/nav.js"></script>
-        <script src="js/weatheralert.js"></script>
         <script src="js/weatherapi.js"></script>
         <script src="js/time.js"></script>
     </body>

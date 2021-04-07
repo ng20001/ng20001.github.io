@@ -11,6 +11,12 @@ html {
 }
 
 /*---------Weather Alert Pop up---------*/
+/*Weather Alert Not Applicable in HK region*/
+/*
+#special-note img {
+    width: 50px;
+}
+
 #weather-alert {
     background-color: white;
     padding: 20px;
@@ -18,7 +24,7 @@ html {
 }
 
 .showme {
-    display: block;
+    display: flex;
 }
 
 .hideme {
@@ -30,6 +36,7 @@ html {
     width: 100%;
     text-align: center;
 }
+*/
 
 /*---------Site title TOP---------*/
 .site-title-left {
@@ -73,17 +80,9 @@ html {
     font-size: 16px;
 }
 
-/*---sub title---*/
-/*
-.headings div {
-    margin: 0;
-    font-size: 15px;
-}
-*/
-
 /*---------Dropdown-Navigation---------*/
 nav {
-    background-color: #76a7c7;
+    background-color: #86a7a8;
 }
 
 .dropdown-nav {
@@ -106,13 +105,13 @@ nav {
 }
 
 .dropdown-nav li a:hover {
-    background-color: #4194cc;
+    background-color: #D9D9D9;
     color: #333;
 }
 
 .dropdown-nav li.active a {
-    background-color: #284B63;
-    color: black;
+    background-color: #3C6E71;
+    color: white;
 }
 
 .responsive li {
@@ -146,77 +145,10 @@ nav {
 .weather-info p{
     margin: 0 auto;
     width: 100%;
-    text-align: center;
+    padding: 5px;
+    text-align: left;
 }
 
-.weathersummary {
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    background: radial-gradient(white, grey);
-    border: 1px solid black;
-    box-shadow: 0 0 30px #777;
-    padding: 0 10px;
-}
-
-.weathersummary h3,p {
-    margin: 10px auto;
-}
-
-#five-day {
-    display: none;
-}
-
-#five-day table {
-    margin: 10px auto;
-    width: 75%;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-#five-day th {
-    background-color: #fffad2;
-}
-
-#five-day th, td {
-    padding: 10px;
-    border: 2px solid black;
-}
-
-#five-day tr:nth-child(2) td {
-    border-bottom: none;
-    padding-bottom: 5px;
-}
-
-#five-day tr:nth-child(3) td {
-    border-top: none;
-}
-
-#five-day img {
-    width: 45px;
-}
-
-#upcoming-event {
-    margin: 40px auto;
-    width: 70%;
-    border: 1px solid black;
-    padding: 30px;
-    background-color: #c5fdff;
-}
-
-#upcoming-event h3 {
-    margin: 0 auto;
-}
-
-.quote {
-    font-style: italic;
-    font-size: small;
-}
-
-/*---------Three images---------*/
-.three-images {
-    display: none;
-}
 
 /*---------Article/Partners---------*/
 .article {
@@ -243,6 +175,11 @@ nav {
 .partners img {
     margin: 0 auto;
     width: 100%;
+}
+
+.paragraph-source {
+    font-style: italic;
+    font-size: small;
 }
 
 /*---------Contact info---------*/
@@ -386,6 +323,10 @@ form label.top textarea {
 }
 
 /*----------Directory Business Cards----------*/
+.grid-list-icon {
+    display: none;
+}
+
 .business-cards {
     /*background-color: #fffad2;*/
     margin: 0 auto;
@@ -397,26 +338,18 @@ form label.top textarea {
     width: 100%;
     margin: 20px auto;
     padding: 20px;
-    background-color: lightblue;
-    box-shadow: 4px 4px 10px rgb(131, 131, 131);
+    background-color: #D9D9D9;
+    box-shadow: 6px 6px 8px rgb(116, 116, 116);
     border-radius: 6px;
 }
 
 .business-cards img {
-    width: 100%;
+    width: 50%;
     padding-bottom: 10px;
+    margin: 0px auto;
 }
 
 .business-cards h2 {
     font-size: 30px;
     margin: 0;
-}
-
-.business-cards h3 {
-    font-size: 15px;
-    margin: 0;
-}
-
-.business-cards :nth-child(3) {
-    margin-top: 20px;
 }

@@ -1,4 +1,3 @@
-//const directoryURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 const directoryURL = 'https://raw.githubusercontent.com/ng20001/ng20001.github.io/master/lesson13/js/directory.json';
 
 
@@ -18,7 +17,7 @@ fetch(directoryURL)
         let p2 = document.createElement('p');
         let image = document.createElement('img');
 
-        h2.textContent = 'Name: ' + businesses[i].name;
+        h2.textContent = businesses[i].name;
         p.textContent = 'Contact: ' + businesses[i].contact;
         p2.textContent = 'Website: ' + businesses[i].website;
         image.setAttribute('src', 'images/' + businesses[i].photo);
@@ -28,8 +27,9 @@ fetch(directoryURL)
         word_wrap.appendChild(p);
         word_wrap.appendChild(p2);
         
-        card.appendChild(word_wrap);
         card.appendChild(image);
+        card.appendChild(word_wrap);
+        
 
         document.querySelector('div.business-cards').appendChild(card);
     }  
