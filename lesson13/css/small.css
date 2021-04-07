@@ -384,3 +384,39 @@ form label.top textarea {
     text-align: center;
     margin: 50px 10px;
 }
+
+/*----------Directory Business Cards----------*/
+.business-cards {
+    /*background-color: #fffad2;*/
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+}
+
+.business-cards section {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightblue;
+    box-shadow: 4px 4px 10px rgb(131, 131, 131);
+    border-radius: 6px;
+}
+
+.business-cards img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.business-cards h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.business-cards h3 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.business-cards :nth-child(3) {
+    margin-top: 20px;
+}
